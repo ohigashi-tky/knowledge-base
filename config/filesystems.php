@@ -57,6 +57,13 @@ return [
             'throw' => false,
         ],
 
+        'remix' => [
+            'driver' => 'local',
+            'root' => base_path('frontend/build'),
+            'url' => env('APP_URL').'/remix-build',
+            'visibility' => 'public',
+        ],
+
     ],
 
     /*
